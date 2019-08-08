@@ -7,7 +7,7 @@ var server = http.createServer(function(request, response) {
 
 });
 
-var port = 8080;
+var port = 80;
 server.listen(port);
 
 console.log("Server running at ", server.address());
